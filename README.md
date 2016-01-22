@@ -252,9 +252,8 @@
 
 导入
 
-	import delimited [using] filename [,options]
-	import delimited [varlist] using filename [,options]
-	[,varnames(#|nonames)]
+	insheet using filename.csv [,options]
+	outsheet using filename.csv [varlist] using filename [,options]
 
 导出
 
@@ -543,7 +542,7 @@ Please merge the two STATA data files and only keep matched observations.
 
 Please turning variable of stock id into an ordinal variable beginning with 1. And please generate a new variable with values of big or small representing bigger or smaller than the average of market value of all stocks year by year. Similarly, please generate a new variable with values of high or low representing higher or lower than the average of PE ratio of all stocks year by year. You may have more than one way to achieve this data processing.
 
-	HINTS: encode, by, egen, mean, autocode
+	HINTS: encode, by, egen, mean
 
 ## 5)
 
