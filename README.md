@@ -552,13 +552,13 @@ Please use the dataset obtained from 4) to make a table showing the summary stat
 
 ## 6)
 
-Please use the dataset obtained from 4) and keep the variables of date, year (marks of the source of resulting observations in 1)), market value and the ordinal variable of stock id. Please change this dataset with daily frequency to a yearly dataset by taking the average of market value year by year for each stock. (Hints: by, egen, mean, duplicates drop)
+Please use the dataset obtained from 4) and keep the variables of date, year (marks of the source of resulting observations in 1)), market value and the ordinal variable of stock id. Please change this dataset with daily frequency to a yearly dataset by taking the average of market value year by year for each stock.
 
 	HINTS: by, egen, mean, duplicates, drop
 
 ## 7)
 
-Please use the dataset obtained from 6) and reshape it into a wide form with the three new variables of market value specified by year. Please compare the market values of each stock in 2013 and them in 2011 and see whether there is a significantly increasing pattern of market value in A-share stocks of Shanghai Stock Exchange from 2011 to 2013. (Hints: reshape, ttest)
+Please use the dataset obtained from 6) and reshape it into a wide form with the three new variables of market value specified by year. Please compare the market values of each stock in 2013 and them in 2011 and see whether there is a significantly increasing pattern of market value in A-share stocks of Shanghai Stock Exchange from 2011 to 2013.
 
 	HINTS: reshape, ttest
 
